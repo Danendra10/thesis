@@ -1,0 +1,3 @@
+/Users/danendracleveroananda/Documents/Kuliah/TA/thesis/build/CMakeFiles/main.dir
+/Users/danendracleveroananda/Documents/Kuliah/TA/thesis/build/CMakeFiles/edit_cache.dir
+/Users/danendracleveroananda/Documents/Kuliah/TA/thesis/build/CMakeFiles/rebuild_cache.dir
