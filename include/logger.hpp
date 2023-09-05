@@ -41,7 +41,7 @@ void Logger(const char *color, const char *msg, ...)
     va_start(args, msg);
     printf("%s\n", color);
     vprintf(combinedMsg, args);
-    printf("%s", RESET);
+    printf("%s   \n", RESET);
     va_end(args);
 }
 

@@ -7,6 +7,18 @@ int main()
         printf("Error on potentialFieldInit");
         return -1;
     }
+    DrawField(field_, kri_field);
+    AddLine(line_, kri_field);
+    AddGoalPost(goal_post_home, kri_field);
+    AddGoalPost(goal_post_away, kri_field);
+    AddMiddleLine(field_, line_, kri_field);
+    AddMiddleCircle(line_, kri_field);
+
+    AddText("Home", kri_field, 50, 30);
+    AddText("Away", kri_field, 1200, 30);
+
+    imshow("kri_field", kri_field);
+    waitKey(0);
     return 1;
 }
 
@@ -14,6 +26,24 @@ int potentialFieldInit()
 {
     filesystem::path log_directory = filesystem::current_path() / "../log/logger.log";
     log_dir = log_directory.string();
+
+    field_.length_x = 800;
+    field_.length_y = 1300;
+
+    line_.start_point_x = 50;
+    line_.start_point_y = 50;
+    line_.end_point_x = field_.length_x - 50;
+    line_.end_point_y = field_.length_y - 50;
+
+    goal_post_home.start_point_x = field_.length_x / 2 - 100;
+    goal_post_home.start_point_y = line_.start_point_y;
+    goal_post_home.end_point_x = field_.length_x / 2 + 100;
+    goal_post_home.end_point_y = line_.start_point_y - 50;
+
+    goal_post_away.start_point_x = field_.length_x / 2 - 100;
+    goal_post_away.start_point_y = line_.end_point_y;
+    goal_post_away.end_point_x = field_.length_x / 2 + 100;
+    goal_post_away.end_point_y = line_.end_point_y + 50;
 
     if (clearLogFile() == -1)
         return -1;
