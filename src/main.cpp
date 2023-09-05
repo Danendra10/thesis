@@ -2,31 +2,41 @@
 
 int main()
 {
-    if (potentialFieldInit() == -1)
+    if (PotentialFieldInit() == -1)
     {
-        printf("Error on potentialFieldInit");
+        printf("Error on PotentialFieldInit");
         return -1;
     }
-    DrawField(field_, kri_field);
-    AddLine(line_, kri_field);
-    AddGoalPost(goal_post_home, kri_field);
-    AddGoalPost(goal_post_away, kri_field);
-    AddMiddleLine(field_, line_, kri_field);
-    AddMiddleCircle(line_, kri_field);
-    DrawRobot(robot_1_own, kri_field);
 
-    AddText("Home", kri_field, 50, 30);
-    AddText("Away", kri_field, 1200, 30);
+    while (true)
+    {
+        if (PotentialFieldRoutine() == -1)
+        {
+            break;
+        }
+        char key = cv::waitKey(10);
+        if (key == 27)
+            break;
+    }
 
-    imshow("kri_field", kri_field);
-    waitKey(0);
     return 1;
 }
 
-int potentialFieldInit()
+int PotentialFieldRoutine()
+{
+    imshow("Field", kri_field);
+    return 0;
+}
+
+int PotentialFieldInit()
 {
     filesystem::path log_directory = filesystem::current_path() / "../log/logger.log";
     log_dir = log_directory.string();
+
+    if (clearLogFile() == -1)
+        return -1;
+    if (LoadConfig() == -1)
+        return -1;
 
     field_.length_x = 800;
     field_.length_y = 1300;
@@ -46,10 +56,16 @@ int potentialFieldInit()
     goal_post_away.end_point_x = field_.length_x / 2 + 100;
     goal_post_away.end_point_y = line_.end_point_y + 50;
 
-    if (clearLogFile() == -1)
-        return -1;
-    if (LoadConfig() == -1)
-        return -1;
+    DrawField(field_, kri_field);
+    AddLine(line_, kri_field);
+    AddGoalPost(goal_post_home, kri_field);
+    AddGoalPost(goal_post_away, kri_field);
+    AddMiddleLine(field_, line_, kri_field);
+    AddMiddleCircle(line_, kri_field);
+    DrawRobot(robot_1_own, kri_field);
+
+    AddText("Home", kri_field, 50, 30);
+    AddText("Away", kri_field, 1200, 30);
 
     return 1;
 }

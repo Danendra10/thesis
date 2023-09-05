@@ -29,8 +29,8 @@ GoalPost goal_post_away;
 GoalPost goal_post_home;
 Robot robot_1_own(0, 0, 90, 0, 0, 0, OWN_ROBOT);
 
-int potentialFieldInit();
-int potentialFieldRoutine();
+int PotentialFieldInit();
+int PotentialFieldRoutine();
 int LoadConfig();
 int clearLogFile();
 
