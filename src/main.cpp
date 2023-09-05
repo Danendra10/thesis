@@ -13,6 +13,7 @@ int main()
     AddGoalPost(goal_post_away, kri_field);
     AddMiddleLine(field_, line_, kri_field);
     AddMiddleCircle(line_, kri_field);
+    DrawRobot(robot_1_own, kri_field);
 
     AddText("Home", kri_field, 50, 30);
     AddText("Away", kri_field, 1200, 30);
