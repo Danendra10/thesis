@@ -1,6 +1,7 @@
 #ifndef LOGGER_HPP_
 #define LOGGER_HPP_
 #include <string>
+#include <type_traits>
 
 using namespace std;
 
@@ -13,41 +14,62 @@ using namespace std;
 #define WHITE "\033[0;37m"
 #define RESET "\033[0m"
 
-char log_dir[128];
+string log_dir;
 
 void SaveLog(const char *msg, ...);
 
 void Logger(const char *color, const char *msg, ...)
 {
-    SaveLog(msg);
     time_t now = time(0);
     tm *ltm = localtime(&now);
     char buffer[100];
     sprintf(buffer, "[%d-%d-%d %d:%d:%d] => ", 1900 + ltm->tm_year, 1 + ltm->tm_mon, ltm->tm_mday, ltm->tm_hour, ltm->tm_min, ltm->tm_sec);
-    msg = strcat(buffer, msg);
+
+    // Create a dynamic format string with placeholders replaced by "%s"
     va_list args;
     va_start(args, msg);
-    printf("%s", color);
-    vprintf(msg, args);
+    char dynamicFormat[200];
+    vsprintf(dynamicFormat, msg, args);
+    va_end(args);
+
+    // Combine the timestamp, prefix, and dynamic message into a single message
+    char combinedMsg[300];
+    snprintf(combinedMsg, sizeof(combinedMsg), "%s%s", buffer, dynamicFormat);
+
+    SaveLog(combinedMsg);
+
+    va_start(args, msg);
+    printf("%s\n", color);
+    vprintf(combinedMsg, args);
     printf("%s", RESET);
     va_end(args);
 }
 
 void SaveLog(const char *msg, ...)
 {
-    char buffer[100];
+    char buffer[200];
     time_t now = time(0);
     tm *ltm = localtime(&now);
-    sprintf(buffer, "[%d-%d-%d %d:%d:%d] => ", 1900 + ltm->tm_year, 1 + ltm->tm_mon, ltm->tm_mday, ltm->tm_hour, ltm->tm_min, ltm->tm_sec);
 
     va_list args;
     va_start(args, msg);
-    vsprintf(buffer + strlen(buffer), msg, args);
+
+    vsnprintf(buffer, sizeof(buffer), msg, args);
+
     va_end(args);
 
-    FILE *fp = fopen(log_dir, "a");
-    fprintf(fp, "%s", buffer);
-    fclose(fp);
+    strcat(buffer, "\n");
+
+    FILE *fp = fopen(log_dir.c_str(), "a");
+    if (fp != NULL)
+    {
+        fprintf(fp, "%s", buffer);
+        fclose(fp);
+    }
+    else
+    {
+        printf("Failed to open log file.\n");
+    }
 }
 
 #endif

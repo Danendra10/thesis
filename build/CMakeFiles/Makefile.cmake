@@ -38,6 +38,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/lib/cmake/opencv4/OpenCVConfig.cmake"
   "/opt/homebrew/lib/cmake/opencv4/OpenCVModules-release.cmake"
   "/opt/homebrew/lib/cmake/opencv4/OpenCVModules.cmake"
+  "/opt/homebrew/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake"
+  "/opt/homebrew/lib/cmake/yaml-cpp/yaml-cpp-config.cmake"
+  "/opt/homebrew/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake"
+  "/opt/homebrew/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake"
   )
 
 # The corresponding makefile is:

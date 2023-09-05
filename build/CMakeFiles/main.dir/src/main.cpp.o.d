@@ -36,6 +36,7 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/version \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/conditional.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/decay.h \
@@ -267,8 +268,6 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstring \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_errno_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ssize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/equal.h \
@@ -680,7 +679,8 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/unary_negate.h \
   /Users/danendracleveroananda/Documents/Kuliah/TA/thesis/include/vec_repl.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/yaml.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/parser.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale.h \
@@ -701,6 +701,9 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wctype.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/dll.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/emitter.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/bitset \
@@ -724,6 +727,8 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_nlink_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_useconds_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_errno_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_def.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_setsize.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_set.h \
@@ -734,4 +739,169 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/binary.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/emitterdef.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/emittermanip.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/null.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/ostream_wrapper.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/emitterstyle.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/stlemitter.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/exceptions.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/mark.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/noexcept.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/traits.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/node.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/ptr.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/type.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/impl.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/detail/memory.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/detail/node.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/detail/node_ref.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/detail/node_data.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/detail/node_iterator.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/iterator.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/detail/iterator.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/convert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/valarray \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/detail/impl.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/parse.h \
+  /opt/homebrew/Cellar/yaml-cpp/0.8.0/include/yaml-cpp/node/emit.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/opencv.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/opencv_modules.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/cvdef.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/version.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/hal/interface.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/arm_neon.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/base.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/cvstd.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/neon_utils.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/check.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/traits.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/matx.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/saturate.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/fast_math.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/types.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cfloat \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/float.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/float.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/mat.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/bufferpool.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/mat.inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/persistence.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/operations.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/utility.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/optim.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/ovx.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/calib3d.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/features2d.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/miniflann.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/defines.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/config.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/affine.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/dnn.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/dnn/dnn.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/async.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/dnn/../dnn/version.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/dnn/dict.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/dnn/layer.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/dnn/utils/../dnn.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/flann_base.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/general.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/matrix.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/params.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/any.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/saving.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/nn_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/result_set.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/all_indices.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/kdtree_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/dynamic_bitset.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/dist.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/heap.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/allocator.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/random.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/kdtree_single_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/kmeans_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/logger.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/composite_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/linear_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/lsh_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/lsh_table.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/autotuned_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/ground_truth.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/index_testing.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/timer.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/flann/sampling.h \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/highgui.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/imgcodecs.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/videoio.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/imgproc.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/./imgproc/segmentation.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/ml.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/ml/ml.inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/objdetect.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/objdetect/face.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/objdetect/barcode.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/photo.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/stitching.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/stitching/warpers.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/cuda.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/cuda_types.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/stitching/detail/util.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/queue \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/deque \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/video.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/video/tracking.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.0_4/include/opencv4/opencv2/video/background_segm.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/fstream
